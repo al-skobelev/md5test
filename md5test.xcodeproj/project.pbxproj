@@ -7,30 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D90C548915B05F2C00A09AEF /* CommonUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = D90C548815B0507300A09AEF /* CommonUtils.m */; };
 		D9CAD89415B0501000A5872F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9CAD89315B0501000A5872F /* UIKit.framework */; };
 		D9CAD89615B0501000A5872F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9CAD89515B0501000A5872F /* Foundation.framework */; };
 		D9CAD89815B0501000A5872F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9CAD89715B0501000A5872F /* CoreGraphics.framework */; };
 		D9CAD89E15B0501000A5872F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D9CAD89C15B0501000A5872F /* InfoPlist.strings */; };
 		D9CAD8A015B0501000A5872F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D9CAD89F15B0501000A5872F /* main.m */; };
 		D9CAD8A415B0501000A5872F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D9CAD8A315B0501000A5872F /* AppDelegate.m */; };
-		D9CAD8A715B0501000A5872F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9CAD8A615B0501000A5872F /* ViewController.m */; };
-		D9CAD8AA15B0501000A5872F /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D9CAD8A815B0501000A5872F /* ViewController.xib */; };
+		D9CAD8A715B0501000A5872F /* MainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D9CAD8A615B0501000A5872F /* MainVC.m */; };
+		D9CAD8AA15B0501000A5872F /* MainVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = D9CAD8A815B0501000A5872F /* MainVC.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D90C548715B0507300A09AEF /* CommonUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonUtils.h; sourceTree = "<group>"; };
+		D90C548815B0507300A09AEF /* CommonUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommonUtils.m; sourceTree = "<group>"; };
 		D9CAD88F15B0501000A5872F /* md5test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = md5test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9CAD89315B0501000A5872F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D9CAD89515B0501000A5872F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D9CAD89715B0501000A5872F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		D9CAD89B15B0501000A5872F /* md5test-Info.plist */ = {isa = PBXFileReference; path = "md5test-Info.plist"; sourceTree = "<group>"; };
+		D9CAD89B15B0501000A5872F /* md5test-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "md5test-Info.plist"; sourceTree = "<group>"; };
 		D9CAD89D15B0501000A5872F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D9CAD89F15B0501000A5872F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		D9CAD8A115B0501000A5872F /* md5test-Prefix.pch */ = {isa = PBXFileReference; path = "md5test-Prefix.pch"; sourceTree = "<group>"; };
-		D9CAD8A215B0501000A5872F /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		D9CAD8A115B0501000A5872F /* md5test-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "md5test-Prefix.pch"; sourceTree = "<group>"; };
+		D9CAD8A215B0501000A5872F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D9CAD8A315B0501000A5872F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		D9CAD8A515B0501000A5872F /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
-		D9CAD8A615B0501000A5872F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		D9CAD8A915B0501000A5872F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		D9CAD8A515B0501000A5872F /* MainVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainVC.h; sourceTree = "<group>"; };
+		D9CAD8A615B0501000A5872F /* MainVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainVC.m; sourceTree = "<group>"; };
+		D9CAD8A915B0501000A5872F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainVC.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,9 +82,11 @@
 			children = (
 				D9CAD8A215B0501000A5872F /* AppDelegate.h */,
 				D9CAD8A315B0501000A5872F /* AppDelegate.m */,
-				D9CAD8A515B0501000A5872F /* ViewController.h */,
-				D9CAD8A615B0501000A5872F /* ViewController.m */,
-				D9CAD8A815B0501000A5872F /* ViewController.xib */,
+				D9CAD8A515B0501000A5872F /* MainVC.h */,
+				D9CAD8A615B0501000A5872F /* MainVC.m */,
+				D9CAD8A815B0501000A5872F /* MainVC.xib */,
+				D90C548715B0507300A09AEF /* CommonUtils.h */,
+				D90C548815B0507300A09AEF /* CommonUtils.m */,
 				D9CAD89A15B0501000A5872F /* Supporting Files */,
 			);
 			path = md5test;
@@ -149,7 +154,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D9CAD89E15B0501000A5872F /* InfoPlist.strings in Resources */,
-				D9CAD8AA15B0501000A5872F /* ViewController.xib in Resources */,
+				D9CAD8AA15B0501000A5872F /* MainVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -162,7 +167,8 @@
 			files = (
 				D9CAD8A015B0501000A5872F /* main.m in Sources */,
 				D9CAD8A415B0501000A5872F /* AppDelegate.m in Sources */,
-				D9CAD8A715B0501000A5872F /* ViewController.m in Sources */,
+				D9CAD8A715B0501000A5872F /* MainVC.m in Sources */,
+				D90C548915B05F2C00A09AEF /* CommonUtils.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,12 +183,12 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		D9CAD8A815B0501000A5872F /* ViewController.xib */ = {
+		D9CAD8A815B0501000A5872F /* MainVC.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				D9CAD8A915B0501000A5872F /* en */,
 			);
-			name = ViewController.xib;
+			name = MainVC.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -274,6 +280,7 @@
 				D9CAD8AF15B0501000A5872F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
